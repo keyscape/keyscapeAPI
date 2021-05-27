@@ -246,11 +246,11 @@ var mode = "site";
 
             teamText += "\"><i class=\"fas fa-user\"></i></a><a class=\"btn btn-dark btn-social mx-2\" target=\"_blank\" href=\"";
 
-            teamText += teamInfo[person].facebook;
+            teamText += teamInfo[person].fb;
 
             teamText += "\"><i class=\"fab fa-facebook-f\"></i></a><a class=\"btn btn-dark btn-social mx-2\" target=\"_blank\" href=\"";
 
-            teamText += teamInfo[person].linkedin;
+            teamText += teamInfo[person].lk;
 
             teamText += "\"><i class=\"fab fa-linkedin-in\"></i></a></div></div>";
         }
