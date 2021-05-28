@@ -148,7 +148,7 @@ var mode = "site";
             teamText = "";
 
         //Member #Cassio
-        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/cassio_a.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/cassio.jpg",
                         name:   "Cassio Amador",
                         work:   "Professor Coordenador",
                         email:  "cassioamador@utfpr.edu.br",
@@ -157,7 +157,7 @@ var mode = "site";
                         lk:     "#!"});
 
         //Member #Mauricio
-        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/mauricio_t.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/mauricio.jpg",
                         name:   "Mauricio Takano",
                         work:   "Professor Cocoordenador",
                         email:  "takano@utfpr.edu.br",
@@ -166,7 +166,7 @@ var mode = "site";
                         lk:     "https://www.linkedin.com/in/mauricio-takano-b44965175/"});
 
         //Member #Lucas
-        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/lucas_p.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/lucas.jpg",
                         name:   "Lucas Pinto",
                         work:   "Aluno Bolsista",
                         email:  "lucaspinto@alunos.utfpr.edu.br",
@@ -175,7 +175,7 @@ var mode = "site";
                         lk:     "https://www.linkedin.com/in/pradoplucas/"});
 
         //Member #Bianca
-        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/bianca_a.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/bianca.jpg",
                         name:   "Bianca Andrade",
                         work:   "Aluna da UTFPR",
                         email:  "biancaandrade@alunos.utfpr.edu.br",
