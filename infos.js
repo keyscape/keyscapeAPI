@@ -148,7 +148,7 @@ var mode = "site";
             teamText = "";
 
         //Member #Cassio
-        teamInfo.push({ image:  "assets/img/team/cassio_a.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/cassio_a.jpg",
                         name:   "Cassio Amador",
                         work:   "Professor Coordenador",
                         email:  "cassioamador@utfpr.edu.br",
@@ -157,7 +157,7 @@ var mode = "site";
                         lk:     "#!"});
 
         //Member #Mauricio
-        teamInfo.push({ image:  "assets/img/team/mauricio_t.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/mauricio_t.jpg",
                         name:   "Mauricio Takano",
                         work:   "Professor Cocoordenador",
                         email:  "takano@utfpr.edu.br",
@@ -166,7 +166,7 @@ var mode = "site";
                         lk:     "https://www.linkedin.com/in/mauricio-takano-b44965175/"});
 
         //Member #Lucas
-        teamInfo.push({ image:  "assets/img/team/lucas_p.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/lucas_p.jpg",
                         name:   "Lucas Pinto",
                         work:   "Aluno Bolsista",
                         email:  "lucaspinto@alunos.utfpr.edu.br",
@@ -175,7 +175,7 @@ var mode = "site";
                         lk:     "https://www.linkedin.com/in/pradoplucas/"});
 
         //Member #Bianca
-        teamInfo.push({ image:  "assets/img/team/bianca_a.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/bianca_a.jpg",
                         name:   "Bianca Andrade",
                         work:   "Aluna da UTFPR",
                         email:  "biancaandrade@alunos.utfpr.edu.br",
@@ -184,7 +184,7 @@ var mode = "site";
                         lk:     "#!"});
 
         //Member #Jean
-        teamInfo.push({ image:  "assets/img/team/example.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/example.jpg",
                         name:   "Jean Rocha",
                         work:   "Aluno da UTFPR",
                         email:  "@alunos.utfpr.edu.br",
@@ -193,7 +193,7 @@ var mode = "site";
                         lk:     "#!"});
      
         //Member #Mariana
-        teamInfo.push({ image:  "assets/img/team/example.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/example.jpg",
                         name:   "Mariana Figueiredo",
                         work:   "Aluna da UTFPR",
                         email:  "marianagomes@alunos.utfpr.edu.br",
@@ -202,7 +202,7 @@ var mode = "site";
                         lk:     "#!"});
 
         //Member #Iori
-        teamInfo.push({ image:  "assets/img/team/example.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/example.jpg",
                         name:   "Iori Pitoli",
                         work:   "Aluno da UTFPR",
                         email:  "ioripitoli@alunos.utfpr.edu.br",
@@ -211,7 +211,7 @@ var mode = "site";
                         lk:     "#!"});
 
         //Member #Gabriel
-        teamInfo.push({ image:  "assets/img/team/example.jpg",
+        teamInfo.push({ image:  "https://keyscape.github.io/keyscapeAPI/team/example.jpg",
                         name:   "Gabriel Torres",
                         work:   "Aluno da UTFPR",
                         email:  "gabtor@alunos.utfpr.edu.br",
@@ -246,11 +246,11 @@ var mode = "site";
 
             teamText += "\"><i class=\"fas fa-user\"></i></a><a class=\"btn btn-dark btn-social mx-2\" target=\"_blank\" href=\"";
 
-            teamText += teamInfo[person].fb;
+            teamText += teamInfo[person].facebook;
 
             teamText += "\"><i class=\"fab fa-facebook-f\"></i></a><a class=\"btn btn-dark btn-social mx-2\" target=\"_blank\" href=\"";
 
-            teamText += teamInfo[person].lk;
+            teamText += teamInfo[person].linkedin;
 
             teamText += "\"><i class=\"fab fa-linkedin-in\"></i></a></div></div>";
         }
